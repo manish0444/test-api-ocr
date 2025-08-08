@@ -1,5 +1,4 @@
-export default function handler(req, res) {
-  const medicineData = [
+[
   {
     "name": "Ibuprofen-800",
     "price": 284,
@@ -700,11 +699,4 @@ export default function handler(req, res) {
     "batchNo": "J802",
     "expiryDate": "2027-03-04"
   }
-];
-
-  if (req.method === 'GET') {
-    res.status(200).json(medicineData);
-  } else {
-    res.status(405).json({ error: 'Method not allowed' });
-  }
-}
+]
