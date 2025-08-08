@@ -4,7 +4,7 @@ export default function handler(req, res) {
     "name": "Ibuprofen-800",
     "price": 284,
     "qty": 136,
-    "batchNo": "X745",
+    "batchNo": "2029",
     "expiryDate": "2029-03-04"
   },
   {
